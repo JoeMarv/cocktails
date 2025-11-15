@@ -24,6 +24,10 @@ body {
     overflow-x: hidden;
 }
 
+* {
+    user-select: none;
+}
+
 @utility flex-center {
     @apply flex justify-center items-center;
 }
